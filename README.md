@@ -19,7 +19,8 @@ python3 ClimatologyMap.py -f path_to_file.nc -i 2019-09:2019-10
 By specifying an interval that you're interested in graphing you can cut away
 any extra unwanted data. _start_date_ and _end_date_ are of datetime format.
 You can be as specific or unspecific as you want as long as they are of the
-same time precision. eg. You cant have 2019-09:2019-09-07T21
+same time precision. eg. You cant have 2019-09:2019-09-07T21.
+
 __Specifying Precision__
 ```
 python3 ClimatologyMap.py -f <filepath> -p [Y|M|D|h]
